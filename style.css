@@ -1,0 +1,61 @@
+body {
+    background-image: url("skyrim.gif");
+}
+button {
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: fit-content;
+}
+.background{
+    height: 500px;
+    width: 500px;
+}
+
+.btns {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    margin-bottom: 22px;
+    margin-left: 20%;
+}
+
+.winOrLoseContainer {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 50px;
+}
+  
+img {
+  width: auto;
+  height: 250px;
+}
+.dagoth{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    color: red;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 50px;
+}
+
+.enemies{
+    display: grid;
+    justify-content: center;
+    color: red ;
+    
+    
+}
+.player{
+    color: red;
+}
